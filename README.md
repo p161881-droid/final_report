@@ -7,7 +7,6 @@ This project is the final report for STQD6324 Data Management. It shows big data
 ## Dataset: BlogFeedback
 
 ### Why This Dataset?
-
 I want to work in digital marketing and social media analytics. In this industry, **predicting blog post popularity (number of comments)** is very valuable. It helps content creators plan their posts and helps companies measure content marketing results.
 
 Source: https://archive.ics.uci.edu/dataset/304/blogfeedback
@@ -27,7 +26,7 @@ I chose the **BlogFeedback** dataset from UC Irvine Machine Learning Repository 
 |-----------|----------------------|
 | OS | Virtual Box VM |
 | Hadoop | Hadoop Sandbox 2.6.5 |
-| Big Data Processing | PySpark |
+| Big Data Processing | pyspark 2.3.0|
 | Machine Learning | PySpark ML + scikit-learn |
 | Storage | HDFS + MongoDB |
 | Development Tool | Jupyter Notebook |
@@ -56,9 +55,9 @@ BlogFeedback_Project/
 
 ### Step 1: Data Cleaning
 
-- Read raw data (281 columns, ~52397 rows)
+- Read raw data (281 columns, 52397 rows)
 - Rename columns (target + feature_0 ~ feature_279)
-- Remove constant columns (std=0), 4 columns removed
+- Remove constant columns, 4 columns removed
 - Check missing values (none found)
 - Remove exact duplicate rows, 3194 rows removed
 - Convert target column to integer type
@@ -100,7 +99,6 @@ BlogFeedback_Project/
 ## Conclusion & Recommendations
 
 ### Conclusion
-
 Through the complete data cleaning process on the BlogFeedback dataset, we found:
 
 1. There are 4 constant columns and 3194 duplicate rows in the raw data. Removing them improves model efficiency.
@@ -116,7 +114,6 @@ Through the complete data cleaning process on the BlogFeedback dataset, we found
 ---
 
 ## How to Run
-
 1. Start Hadoop Sandbox 2.6.5
 2. Upload data files to HDFS: `/user/maria_dev/blog_project/raw/`
 3. Start Jupyter Notebook
@@ -125,7 +122,6 @@ Through the complete data cleaning process on the BlogFeedback dataset, we found
 ---
 
 ## References
-
 - UCI Machine Learning Repository – BlogFeedback Dataset
 - PySpark Documentation
 - scikit-learn Documentation
