@@ -37,7 +37,7 @@ I chose the BlogFeedback dataset from UC Irvine Machine Learning Repository for 
 
 ## Project Structure
 
-
+---
 BlogFeedback_Project/
 │
 ├── notebooks/
@@ -55,7 +55,28 @@ BlogFeedback_Project/
 
 ## Analysis Workflow
 
-### Step 1: Data Cleaning
+### Step 1: Data Upload & Cleaning
+
+**Data Upload**
+
+Use Tabby SSH to connect to Hadoop Sandbox on port 2222, then upload files via SFTP.
+<img width="599" height="302" alt="屏幕截图 2026-06-18 093255" src="https://github.com/user-attachments/assets/7d6b0031-9596-4c44-bdbc-981f3992e19d" />
+<img width="663" height="453" alt="屏幕截图 2026-06-18 093150" src="https://github.com/user-attachments/assets/fd99154c-4cb2-46cd-b567-89df3a06e846" />
+
+After uploading, run these commands in the terminal to move files to HDFS:
+
+```
+hdfs dfs -mkdir -p /user/maria_dev/blog_project/raw
+hdfs dfs -mkdir -p /user/maria_dev/blog_project/clean
+cd blog_data
+hdfs dfs -put blogData_train.csv /user/maria_dev/blog_project/raw/
+hdfs dfs -put blogData_test-*.csv /user/maria_dev/blog_project/raw/
+```
+<img width="551" height="131" alt="屏幕截图 2026-06-18 093654" src="https://github.com/user-attachments/assets/bda63266-8423-48cb-826e-d624f64e3977" />
+<img width="770" height="659" alt="屏幕截图 2026-06-18 093727" src="https://github.com/user-attachments/assets/1fcc0b3c-e122-443c-bfff-c6b75f04bf2e" />
+
+
+**Data Cleaning**
 
 - Read raw data of train set (281 columns, 52397 rows)
 - Rename columns (target + feature_0 ~ feature_279)
@@ -86,6 +107,8 @@ Random Forest with 17 trees gives the best result (R² = 0.617). On the full tes
 - Save best results (R², MAE, data statistics) to MongoDB
 
 ---
+
+
 
 ## Key Technical Highlights
 
