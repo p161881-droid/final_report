@@ -36,16 +36,18 @@ I chose the **BlogFeedback** dataset from UC Irvine Machine Learning Repository 
 
 ## Project Structure
 
+```
 BlogFeedback_Project/
 │
 ├── notebooks/
-│ └── 1_data_clean.ipynb # Data cleaning notebook
-│ └── 2_data_process.ipynb # Modeling notebook
+│   └── 1_data_clean.ipynb     # Data cleaning notebook
+│   └── 2_data_process.ipynb   # Modeling notebook
 ├── data/
-│ ├── raw/ # Raw CSV files (61 files)
-│ └── clean/ # Cleaned data files
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+│   ├── raw/                   # Raw CSV files (61 files)
+│   └── clean/                 # Cleaned data files
+├── README.md                  # Project documentation
+└── requirements.txt           # Python dependencies
+```
 
 
 ---
