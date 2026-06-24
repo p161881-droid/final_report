@@ -35,7 +35,7 @@ I chose the **BlogFeedback** dataset from UC Irvine Machine Learning Repository 
 
 ## Project Structure
 
-```
+
 BlogFeedback_Project/
 │
 ├── notebooks/
@@ -77,7 +77,7 @@ BlogFeedback_Project/
 | Two-Stage Model (classification + regression) | 0.5088 | 4.08 | Handles zero values |
 | MLP Neural Network (sklearn) | 0.5091 | 6.30 | For comparison only |
 
-> Random Forest with 17 trees gives the best result (R² = 0.617). On the full test set, the two-stage model is more stable (R² = 0.407).
+Random Forest with 17 trees gives the best result (R² = 0.617). On the full test set, the two-stage model is more stable (R² = 0.407).
 
 ### Step 4: Store Results
 
@@ -119,7 +119,6 @@ Through the complete data cleaning process on the BlogFeedback dataset, we found
 3. Start Jupyter Notebook
 4. Run `1_data_clean.ipynb` first, then `2_data_process.ipynb`
 
----
 
 ## References
 - UCI Machine Learning Repository – BlogFeedback Dataset
