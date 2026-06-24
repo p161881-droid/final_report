@@ -52,7 +52,6 @@ BlogFeedback_Project/
 
 
 
-
 ## Analysis Workflow
 
 ### Step 1: Data Upload & Cleaning
@@ -72,6 +71,7 @@ cd blog_data
 hdfs dfs -put blogData_train.csv /user/maria_dev/blog_project/raw/
 hdfs dfs -put blogData_test-*.csv /user/maria_dev/blog_project/raw/
 ```
+
 <img width="551" height="131" alt="屏幕截图 2026-06-18 093654" src="https://github.com/user-attachments/assets/bda63266-8423-48cb-826e-d624f64e3977" />
 <img width="770" height="659" alt="屏幕截图 2026-06-18 093727" src="https://github.com/user-attachments/assets/1fcc0b3c-e122-443c-bfff-c6b75f04bf2e" />
 
