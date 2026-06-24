@@ -46,7 +46,8 @@ BlogFeedback_Project/
 │   └── 2_data_process.ipynb   # Modeling notebook
 ├── data/
 │   ├── raw/                   # Raw CSV files (61 files)
-│   └── clean/                 # Cleaned data files
+│   └── blogData_train_clean.csv  # Cleaned train data files
+│   └── clean_test               # Cleaned test data files
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies
 ```
