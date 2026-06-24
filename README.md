@@ -5,6 +5,7 @@ This project is the final report for STQD6324 Data Management. It shows big data
 ---
 
 ## Dataset: BlogFeedback
+<img width="1731" height="618" alt="图片" src="https://github.com/user-attachments/assets/bec9cb98-3e12-48be-9408-1b7bb2866670" />
 
 ### Why This Dataset?
 I want to work in digital marketing and social media analytics. In this industry, **predicting blog post popularity (number of comments)** is very valuable. It helps content creators plan their posts and helps companies measure content marketing results.
@@ -55,7 +56,7 @@ BlogFeedback_Project/
 
 ### Step 1: Data Cleaning
 
-- Read raw data (281 columns, 52397 rows)
+- Read raw data of train set (281 columns, 52397 rows)
 - Rename columns (target + feature_0 ~ feature_279)
 - Remove constant columns, 4 columns removed
 - Check missing values (none found)
