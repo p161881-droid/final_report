@@ -37,7 +37,8 @@ I chose the BlogFeedback dataset from UC Irvine Machine Learning Repository for 
 
 ## Project Structure
 
----
+
+```
 BlogFeedback_Project/
 │
 ├── notebooks/
