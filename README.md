@@ -8,11 +8,11 @@ This project is the final report for STQD6324 Data Management. It shows big data
 <img width="1731" height="618" alt="图片" src="https://github.com/user-attachments/assets/bec9cb98-3e12-48be-9408-1b7bb2866670" />
 
 ### Why This Dataset?
-I want to work in digital marketing and social media analytics. In this industry, **predicting blog post popularity (number of comments)** is very valuable. It helps content creators plan their posts and helps companies measure content marketing results.
+I want to work in digital marketing and social media analytics. In this industry, predicting blog post popularity (number of comments) is very valuable. It helps content creators plan their posts and helps companies measure content marketing results.
 
 Source: https://archive.ics.uci.edu/dataset/304/blogfeedback
 
-I chose the **BlogFeedback** dataset from UC Irvine Machine Learning Repository for these reasons:
+I chose the BlogFeedback dataset from UC Irvine Machine Learning Repository for these reasons:
 
 1. Predicting comment count is a classic problem in social media analytics
 2. 281 raw columns with lots of redundant and noisy data, good for practicing data cleaning
