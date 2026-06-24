@@ -5,12 +5,12 @@ This project is the final report for STQD6324 Data Management. It shows big data
 ---
 
 ## Dataset: BlogFeedback
-<img width="1731" height="618" alt="图片" src="https://github.com/user-attachments/assets/bec9cb98-3e12-48be-9408-1b7bb2866670" />
 
 ### Why This Dataset?
 I want to work in digital marketing and social media analytics. In this industry, predicting blog post popularity (number of comments) is very valuable. It helps content creators plan their posts and helps companies measure content marketing results.
 
 Source: https://archive.ics.uci.edu/dataset/304/blogfeedback
+<img width="698" height="351" alt="屏幕截图 2026-06-18 091944" src="https://github.com/user-attachments/assets/807dcc17-6ccf-4936-aeb5-4934c9daef12" />
 
 I chose the BlogFeedback dataset from UC Irvine Machine Learning Repository for these reasons:
 
@@ -21,7 +21,7 @@ I chose the BlogFeedback dataset from UC Irvine Machine Learning Repository for 
 
 ---
 
-## Environment
+## Environment and Tools
 
 | Component | Version / Description |
 |-----------|----------------------|
@@ -31,6 +31,7 @@ I chose the BlogFeedback dataset from UC Irvine Machine Learning Repository for 
 | Machine Learning | PySpark ML + scikit-learn |
 | Storage | HDFS + MongoDB |
 | Development Tool | Jupyter Notebook |
+|Remote Access | Tabby SSH Terminal |
 
 ---
 
