@@ -16,8 +16,12 @@ I chose the BlogFeedback dataset from UC Irvine Machine Learning Repository for 
 
 1. Predicting comment count is a classic problem in social media analytics
 2. 281 raw columns with lots of redundant and noisy data, good for practicing data cleaning
-3. About 50k rows, suitable for Hadoop Sandbox and shows the value of big data tools
+3. 60021 rows, suitable for Hadoop Sandbox and shows the value of big data tools
 4. The target (comment count) has many zeros, good for trying different modeling approaches
+
+### Dataset Structure
+
+There are 281 features in total. All are numeric variables. The features can be divided into four groups: comment and trackback statistics, content features (post length and 200 bag of words features), time attributes (weekday of basetime and weekday of publication), and parent-child relationships (parent pages and their comment statistics). The target variable is the number of comments in the 24 hours after basetime.
 
 ---
 
