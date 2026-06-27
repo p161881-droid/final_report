@@ -34,8 +34,10 @@ There are 281 features in total. All are numeric variables. The features can be 
 | Big Data Processing | pyspark 2.3.0|
 | Machine Learning | PySpark ML + scikit-learn |
 | Storage | HDFS + MongoDB |
-| Development Tool | Jupyter Notebook |
+| Development Tool | Jupyter Notebook 
+| SQL Query | Hive 1.2|
 |Remote Access | Tabby SSH Terminal |
+
 
 ---
 
@@ -44,7 +46,9 @@ There are 281 features in total. All are numeric variables. The features can be 
 
 ```
 BlogFeedback_Project/
-│
+├── Hive/
+│   └── 4_tasks_on_Hive.md
+│   └── hive_statistic.sql
 ├── notebooks/
 │   └── 1_data_clean.ipynb     # Data cleaning notebook
 │   └── 2_data_process.ipynb   # Modeling notebook
@@ -91,13 +95,21 @@ hdfs dfs -put blogData_test-*.csv /user/maria_dev/blog_project/raw/
 - Remove exact duplicate rows, 3194 rows removed
 - Convert target column to integer type
 - Clean and save 60 test files
+- 
+### Step 2: Basic Statistics with Hive
 
-### Step 2: Feature Engineering & Data Split
+I used Hive to do basic statistics on the dataset before modeling.
+- Task 1: Data Size and Missing Values
+- Task 2: Target Variable Distribution  
+- Task 3: Outlier Detection
+- Task 4: Parent Page Comments
+- 
+### Step 3: Feature Engineering & Data Split
 
 - Combine 276 feature columns into one vector column
 - Split data into training and test sets at 8:2 ratio
 
-### Step 3: Modeling & Evaluation
+### Step 4: Modeling & Evaluation
 
 | Model | Test R² | Test MAE | Note |
 |-------|---------|----------|------|
@@ -108,7 +120,7 @@ hdfs dfs -put blogData_test-*.csv /user/maria_dev/blog_project/raw/
 
 Random Forest with 17 trees gives the best result (R² = 0.617). On the full test set, the two-stage model is more stable (R² = 0.407).
 
-### Step 4: Store Results
+### Step 5: Store Results
 
 - Save best results (R², MAE, data statistics) to MongoDB
 
