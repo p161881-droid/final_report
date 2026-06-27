@@ -1,4 +1,4 @@
-<img width="848" height="542" alt="屏幕截图 2026-06-27 215334" src="https://github.com/user-attachments/assets/bc15c6c7-14d6-4772-b8d3-fa23e521a843" />I used Hive scripts to run 4 tasks for basic statistics.
+I used Hive scripts to run 4 tasks for basic statistics.
 First,i upload table in ambari's "Hive View".
 
 <img width="1237" height="648" alt="屏幕截图 2026-06-27 201956" src="https://github.com/user-attachments/assets/76c6fce4-1589-45b5-a2bf-ad85401ea2a9" />
