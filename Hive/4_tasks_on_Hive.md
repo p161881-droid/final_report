@@ -1,4 +1,4 @@
-I used Hive scripts to run 4 tasks for basic statistics.
+## I used Hive scripts to run 4 tasks for basic statistics.
 First,i upload table in ambari's "Hive View".
 
 <img width="1237" height="648" alt="屏幕截图 2026-06-27 201956" src="https://github.com/user-attachments/assets/76c6fce4-1589-45b5-a2bf-ad85401ea2a9" />
