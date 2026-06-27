@@ -159,9 +159,9 @@ Through the complete data cleaning process on the BlogFeedback dataset, we found
 
 ## How to Run
 1. Start Hadoop Sandbox 2.6.5
-2. Upload data files to HDFS: `/user/maria_dev/blog_project/raw/`
+2. Upload data files to HDFS: '/user/maria_dev/blog_project/raw/'
 3. Start Jupyter Notebook
-4. Run `1_data_clean.ipynb` first, then `2_data_process.ipynb`
+4. Run '1_data_clean.ipynb' first, then '2_data_process.ipynb'
 
 
 ## References
