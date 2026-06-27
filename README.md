@@ -29,7 +29,7 @@ There are 281 features in total. All are numeric variables. The features can be 
 
 | Component | Version / Description |
 |-----------|----------------------|
-| OS | Oracle Virtual Box |
+| platform | Oracle Virtual Box |
 | Hadoop | Hadoop Sandbox 2.6.5 |
 | Big Data Processing | pyspark 2.3.0|
 | Machine Learning | PySpark ML + scikit-learn |
